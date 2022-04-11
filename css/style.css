@@ -338,6 +338,7 @@ h1, h2, h3, h4, h5, h6 {
     .intro__footer {
         flex-direction: column;
     }
+
     .intro__body {
         margin: 0px 0px 2.375rem 0px;
     }
@@ -1284,7 +1285,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* *MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MAP MA */
-
+/* !FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
 .footer {
     padding: 3.125rem 0;
     background-color: #f8f8f8;
@@ -1393,8 +1394,6 @@ h1, h2, h3, h4, h5, h6 {
     object-position: bottom;
 }
 
-.footer-row__item-text {}
-
 .footer-row__item-title {
     margin: 0px 0px .625rem 0px;
     font-family: montserrat;
@@ -1419,7 +1418,6 @@ h1, h2, h3, h4, h5, h6 {
     object-position: bottom;
 }
 
-.footer-row__footer {}
 
 .footer-row__footer-link {
     color: #333333;
@@ -1432,6 +1430,20 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media (max-width: 479.98px) {
+    .footer-row__input {
+        width: 100%;
+        border: 1px solid #e7e7e7;
+    }
+
+    .footer-row__button {
+        width: 100%;
+        margin: 0px;
+    }
+
+}
+
+/* !FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER */
 /* ПК */
 @media (max-width: 1087px) {
     .container {
