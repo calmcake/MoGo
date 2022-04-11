@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
     height: .1875rem;
     background-color: #fff;
     display: block;
-    margin: 50px auto;
+    margin: 35px auto;
 }
 
 .intro__button a {
@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 70px;
     background-color: #f38181;
     position: absolute;
-    top: -9%;
+    top: -10%;
     left: 0;
 }
 
@@ -338,6 +338,9 @@ h1, h2, h3, h4, h5, h6 {
     .intro__footer {
         flex-direction: column;
     }
+    .intro__body {
+        margin: 0px 0px 2.375rem 0px;
+    }
 }
 
 /* МАЛЕНЬКИЕ ТЕЛЕФОНЫ */
@@ -349,6 +352,7 @@ h1, h2, h3, h4, h5, h6 {
     .intro__subtitle {
         font-size: 2.5rem;
     }
+
 }
 
 /* *INTRO INTRO INTRO INTRO INTRO INTRO INTRO INTRO INTRO INTRO INTRO INTRO INTRO INTRO INTRO  */
